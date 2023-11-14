@@ -10,4 +10,18 @@ public class Site
         this.rate = rate;
     }
 
+    public double getBillableAmount()
+    {
+        return getBaseAmount() + getTaxAmount();
+    }
+
+    public double getBaseAmount()
+    {
+        return units * rate;
+    }
+
+    public double getTaxAmount()
+    {
+        return getBaseAmount() * TAX_RATE;
+    }
 }
