@@ -6,11 +6,11 @@ public class ResidentialSite extends Site
     }
     public double getBaseAmount()
     {
-
+        return super.getBaseAmount();
     }
 
     public double getTaxAmount()
     {
-
+        return super.getTaxAmount();
     }
 }
