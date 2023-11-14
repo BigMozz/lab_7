@@ -1,13 +1,13 @@
 public class Site
 {
     public static double TAX_RATE;
-    protected double _units;
-    protected double _rate;
+    protected double units;
+    protected double rate;
 
-    public Site(double _units, double _rate)
+    public Site(double units, double rate)
     {
-        this._units = _units;
-        this._rate = _rate;
+        this.units = units;
+        this.rate = rate;
     }
 
 }
